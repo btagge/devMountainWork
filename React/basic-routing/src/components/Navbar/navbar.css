@@ -1,0 +1,23 @@
+.component {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited .link:hover .link:active {
+    color: #222;
+}
+
+.link:visited {
+    color: #222;
+}
+.navItem {
+    margin: 20px;
+}
+
